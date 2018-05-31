@@ -1,18 +1,15 @@
 <template>
   <div id="app">
     <ChooseNation />
-    <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
   </div>
 </template>
 
 <script>
-/*import HelloWorld from './components/HelloWorld.vue'*/
 import ChooseNation from './components/ChooseNation.vue'
 
 export default {
   name: 'app',
   components: {
-    /*HelloWorld*/
     ChooseNation
   }
 }

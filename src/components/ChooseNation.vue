@@ -1,15 +1,10 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
+    <h1>Follow the path of you nation at World Cup! 🏆</h1>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'ChooseNation'
 }
 </script>
 

@@ -1,0 +1,29 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+h3 {
+  margin: 40px 0 0;
+}
+.select-wrapper {
+    display: inline-block;
+    position: relative;
+    select {
+        display: block;
+        font-family: inherit; font-style: inherit; font-weight: inherit; font-size: inherit;
+        color: inherit;
+        background: none; 
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+        &::-ms-expand {
+            display: none;
+        }
+    }
+}
